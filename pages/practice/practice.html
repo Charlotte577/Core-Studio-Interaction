@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	
+	d3.csv('https://raw.githubusercontent.com/Charlotte577/Core-Studio-Interaction/master/pages/practice/Data%20-%20Sheet1.csv')
+	.then(
+         function(data){
+         	 console.log(data)
+         	 viewData(data,'main')
+         }
+		)
+	.catch(function(error){
+
+	})
+	function updateMain (data, location_id) {
+       el =document.querySelector('#'+location_id)
+
+       data.forEach(function(item){
+       	div = document.createElement('div')
+       	div.setAttribute('class','card')
+       	div.classList.add(item['type'])
+       aligner = document.createElement('div')
+       aligner.setAttribute('class','aligner')
+       	h1 = document.createElement('h1')
+       	h1.innerHTML=item['name']
+       	mask = document.createElement('div')
+       	mask.setAttribute('class','mask')
+       	img.src=item['']
+       	mask.appendChild(img)
+       	aligner.appendChild(mask)
+       	aligner.appendChild(h1)
+       	
+       	div.appendChild(h1)
+       	el.appendChild(div)
+     
+       })
+
+	}
+
+</script>
+</html>
