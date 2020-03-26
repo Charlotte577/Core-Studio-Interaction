@@ -850,22 +850,7 @@ img.svg{
 	   -moz-box-sizing: border-box; 
 			box-sizing: border-box; 
 }
-.arlo_tm_footer_wrap p{color: #fff;}
-.arlo_tm_footer_wrap p a{
-	text-decoration: none;
-	color: #fff;
-	font-family: "Montserrat";
-	font-weight: 600;
-    position: relative;
-}
 
 
 
-@media (max-width: 1200px) {
-	.arlo_tm_services_wrap .list_wrap ul li{width: 50%;}
-	#arlo_tm_popup_blog .close{right: 0px;}
-	.arlo_tm_list_wrap > ul.total > li{width: 50%;}
-	.arlo_tm_contact_wrap_all .leftbox{width: 100%;padding-right: 0px;margin-bottom: 19px;}
-	.arlo_tm_contact_wrap_all .rightbox{width: 100%;float: none;}
-	.arlo_tm_preloader{display: none;}
-}
+
