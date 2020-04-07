@@ -322,15 +322,47 @@ img.svg{
 }
 .arlo_tm_hero_header_wrap .image_wrap img{
 	border-radius: 100%;
-	border: 8px solid rgba(255,255,255,.5);
+	border: 3px solid rgba(255,255,255,.5);
+	width: 268px;
+height: 268px;
+margin-top: -50px;
+}
+.arlo_tm_hero_header_wrap .image_wrap1 img{
+	border-radius: 100%;
+
+border: 3px solid rgba(255,255,255,.5);
+
+width: 187px;
+
+height: 187px;
+
+margin-top: -512px;
+
+margin-right: -513px;
+}
+.arlo_tm_hero_header_wrap .image_wrap2 img{
+	border-radius: 100%;
+
+border: 3px solid rgba(255,255,255,.5);
+
+width: 187px;
+
+height: 187px;
+
+margin-top: -563px;
+
+margin-left: -513px;
 }
 .arlo_tm_hero_header_wrap .name_holder h3{
-	font-family: "Montserrat";
+	font-family: "Helvetica";
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 50px;
+	font-size: 69px;
 	font-weight: 300;
+	font-weight: bold;
+	letter-spacing: 2px;
 }
+
 .arlo_tm_hero_header_wrap .name_holder h3 span{
 	font-weight: 500;
 	color: #E3872D;
