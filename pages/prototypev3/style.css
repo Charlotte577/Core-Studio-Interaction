@@ -89,7 +89,7 @@ img.svg{
 	text-decoration: none;
 	color: #fff;
 	font-family: "Montserrat";
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 500;
 	text-transform: uppercase;
 	position: relative;
@@ -150,7 +150,7 @@ img.svg{
 .arlo_tm_leftpart_wrap .leftpart_bottom .social_wrap ul li a{
 	text-decoration: none;
 	color: #fff;
-	
+	margin-left: 5px;
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -310,6 +310,7 @@ img.svg{
 	width: 100%;
 	padding: 0px 20px;
 	
+	
 	-webkit-box-sizing: border-box; 
 	   -moz-box-sizing: border-box; 
 			box-sizing: border-box; 
@@ -325,7 +326,7 @@ img.svg{
 	border: 3px solid rgba(255,255,255,.5);
 	width: 268px;
 height: 268px;
-margin-top: -50px;
+margin-top: 50px;
 }
 .arlo_tm_hero_header_wrap .image_wrap1 img{
 	border-radius: 100%;
@@ -336,10 +337,11 @@ width: 187px;
 
 height: 187px;
 
-margin-top: -512px;
+margin-top: -312px;
 
 margin-right: -513px;
 }
+
 .arlo_tm_hero_header_wrap .image_wrap2 img{
 	border-radius: 100%;
 
@@ -349,7 +351,7 @@ width: 187px;
 
 height: 187px;
 
-margin-top: -563px;
+margin-top: -363px;
 
 margin-left: -513px;
 }
@@ -360,7 +362,9 @@ margin-left: -513px;
 	font-size: 69px;
 	font-weight: 300;
 	font-weight: bold;
-	letter-spacing: 2px;
+	
+	margin-bottom: 20px;
+	margin-top: 100px;
 }
 
 .arlo_tm_hero_header_wrap .name_holder h3 span{
@@ -425,7 +429,23 @@ margin-left: -513px;
 	color: #fff;
 	font-size: 30px;
 }
+.p1{
+	color:white;
+	font-family:hobo std;
+	font-size: 40px;
+}
+.fd p{
+	font-size: 17px;
 
+font-weight: bold;
+
+text-decoration: underline;
+
+margin-bottom: 40px;
+float: left;
+
+margin-left: 20px;
+}
 
 /*	03) ARLO ABOUT
 /*-----------*/
@@ -436,7 +456,7 @@ margin-left: -513px;
 	clear: both;
 	float: left;
 	text-align: left;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	position: relative;
 	
 	-webkit-box-sizing: border-box; 
@@ -600,7 +620,7 @@ margin-left: -513px;
 	height: auto;
 	clear: both;
 	float: left;
-	    border-radius: 20px;
+	    border-radius: 30px;
 	position: relative;
 	box-shadow: 0 0 20px rgba(0,0,0,.1);
 	padding: 40px 40px 33px 40px;
@@ -619,11 +639,12 @@ margin-left: -513px;
 .arlo_tm_services_wrap .list_wrap ul li .inner:hover{top: -5px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon{margin-bottom: 21px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon .svg{
-	width: 90px;
-height: 90px;
+	width: 150px;
+height: 150px;
 color: #E3872D;
-border-radius: 50px;
-margin-left: 75px;
+border-radius: 100px;
+margin-left: 47px;
+align-items: center;
 }
 .arlo_tm_services_wrap .list_wrap ul li .title_service{margin-bottom: 17px;}
 .arlo_tm_services_wrap .list_wrap ul li .title_service h3{
@@ -680,12 +701,12 @@ text-decoration: none;
 			box-sizing: border-box; 
 }
 .arlo_tm_counter_list li .inner{
-	width: 130%;
+	width: 150%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
-	padding: 90px 15px 93px 55px;
+	padding: 90px 0px 93px 108px;
 	
 	-webkit-box-sizing: border-box; 
 	   -moz-box-sizing: border-box; 
@@ -720,7 +741,155 @@ text-decoration: none;
 
 
 
+/*	0) ARLO TESTIMONIALS
+/*---------------------------------------------------*/
 
+.arlo_tm_testimonials_wrapper_all{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.arlo_tm_testimonial_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.arlo_tm_testimonial_wrap .carousel_wrap{
+	width: 100%;
+	max-width: 730px;
+	margin: 0px auto;
+	height: auto;
+	clear: both;
+	text-align: center;
+	cursor: e-resize;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.arlo_tm_testimonial_wrap .carousel_wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.arlo_tm_testimonial_wrap .carousel_wrap ul li{margin: 0px;}
+.arlo_tm_testimonial_wrap .carousel_wrap ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */ 
+}
+.arlo_tm_testimonial_wrap .quotebox_wrap{
+	clear: both;
+	margin-bottom: 22px;
+}
+.arlo_tm_testimonial_wrap .quotebox_wrap i{
+	color: #E3872D;
+	font-size: 35px;
+}
+.arlo_tm_testimonial_wrap .definitions_wrap{
+	clear: both;
+	margin-bottom: 32px;
+}
+.arlo_tm_testimonial_wrap .definitions_wrap p{
+	color: #fff;
+	font-size: 27px;
+	font-family: "Montserrat";
+	font-weight: 600;
+	line-height: 1.4;
+}
+.arlo_tm_testimonial_wrap .name_holder p{
+	color: #fff;
+	font-size: 18px;
+	font-family: "Montserrat";
+}
+
+.arlo_tm_universal_box_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.arlo_tm_universal_box_wrap .bg_wrap{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 10;
+}
+.arlo_tm_universal_box_wrap .overlay_image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 15;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.arlo_tm_universal_box_wrap .overlay_video{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 15;
+	overflow: hidden;
+}
+.arlo_tm_universal_box_wrap .overlay_video video{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+}
+.arlo_tm_universal_box_wrap .overlay_color{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 20;
+}
+.arlo_tm_universal_box_wrap .content{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	z-index: 25;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.arlo_tm_universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/hero/3.jpg);}
+.arlo_tm_universal_box_wrap .overlay_color.testimonial{background-color: rgba(7,23,55,.8);}
+.arlo_tm_universal_box_wrap .content.testimonial{padding: 82px 0px 90px 0px;}
+
+/*---------------------------------------------------*/
 /*	09) ARLO CONTACT
 /*--------*/
 
@@ -845,7 +1014,7 @@ text-decoration: none;
     font-weight: 600;
     font-family: "Montserrat";
     padding: 12px 35px;
-    border-radius: 3px;
+    border-radius: 15px;
     display: inline-block;
     position: relative;
     overflow: hidden;
@@ -957,8 +1126,10 @@ text-decoration: none;
 .arlo_tm_portfolio_single_wrap .details_wrap .short_list ul li:last-child{margin-bottom: 0px;}
 .arlo_tm_portfolio_single_wrap .details_wrap .short_list ul li span{display: inline-block;}
 .arlo_tm_portfolio_single_wrap .details_wrap .short_list ul li span.first{
-    font-weight: 600;
-	min-width: 150px;
+    min-width: 150px;
+font-weight: bold;
+margin-top: 10px;
+font-size: 16px;
 }
 .arlo_tm_portfolio_single_wrap .details_wrap .rightbox{
 	width: 60%;
@@ -998,9 +1169,9 @@ text-decoration: none;
 	align-items: center;
 	justify-content: space-between;
 	
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */
+	-webkit-box-sizing: border-box; 
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box; 
 }
 .arlo_tm_portfolio_single_wrap .pagination_wrap a{
 	text-decoration: none;
@@ -1015,3 +1186,56 @@ text-decoration: none;
 	        transition: all .3s ease;
 }
 .arlo_tm_portfolio_single_wrap .pagination_wrap a:hover{color: #E3872D;}
+
+.arlo_tm_totop{
+	position: fixed;
+	bottom: 40px;
+	right: 55px;
+	z-index: 100;
+	overflow: hidden;
+	outline: 1px solid rgba(255,255,255,.2);
+
+	background-color: #E3872D;
+    padding: 22px;
+    border-radius: 3px;
+    display: inline-block;
+	
+	opacity: 0;
+	visibility: hidden;
+	
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+.arlo_tm_totop:before{
+	position: absolute;
+    content: "";
+    top: 0px;
+    height: 100%;
+    left: -75%;
+    width: 0%;
+    background-color: #041230;
+    transform: skew(50deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+.arlo_tm_totop:after{
+	width: 0px;
+    height: 0px;
+    position: absolute;
+    content: '';
+    border: 5px solid transparent;
+    border-bottom-color: #fff;
+    top: 14px;
+    left: 17px;
+	z-index: 2;
+}
+.arlo_tm_totop:hover:before{width: 290%;}
+.arlo_tm_totop.opened{
+	opacity: 1;
+	visibility: visible;
+	bottom: 55px;
+}
+
