@@ -1,0 +1,96 @@
+body { background: #050E31}
+
+body > div
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -50px 0 0 -50px;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-name: spin;
+}
+
+body > div:before
+{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -50px 0 0 -50px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-name: throb;
+}
+
+body > div > i
+{
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 6px;
+  height: 50px;
+  margin: 0 0 0 -3px;
+  -webkit-transform-origin: 50% 100%;
+}
+
+body > div > i:nth-child(1) { -webkit-transform: rotate(23deg) }
+body > div > i:nth-child(2) { -webkit-transform: rotate(45deg) }
+body > div > i:nth-child(3) { -webkit-transform: rotate(68deg) }
+body > div > i:nth-child(4) { -webkit-transform: rotate(90deg) }
+body > div > i:nth-child(5) { -webkit-transform: rotate(113deg) }
+body > div > i:nth-child(6) { -webkit-transform: rotate(135deg) }
+body > div > i:nth-child(7) { -webkit-transform: rotate(158deg) }
+body > div > i:nth-child(8) { -webkit-transform: rotate(180deg) }
+body > div > i:nth-child(9) { -webkit-transform: rotate(203deg) }
+body > div > i:nth-child(10) { -webkit-transform: rotate(225deg) }
+body > div > i:nth-child(11) { -webkit-transform: rotate(248deg) }
+body > div > i:nth-child(12) { -webkit-transform: rotate(270deg) }
+body > div > i:nth-child(13) { -webkit-transform: rotate(293deg) }
+body > div > i:nth-child(14) { -webkit-transform: rotate(315deg) }
+body > div > i:nth-child(15) { -webkit-transform: rotate(338deg) }
+
+body > div > i > b
+{
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background: #FFFFFF;
+  border-radius: 50% 50% 0 0;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-name: move;
+}
+
+@-webkit-keyframes move
+{
+  0% { bottom: 0% }
+  50% { bottom: 100% }
+  100% { bottom: 0% }
+}
+
+@-webkit-keyframes throb
+{
+  0% { width: 2px; height: 2px; margin: -1px 0 0 -1px; opacity: .75 }
+  50% { width: 100px; height: 100px; margin: -50px 0 0 -50px; opacity: 0 }
+  51% { width: 2px; height: 2px; margin: -1px 0 0 -1px; opacity: 0 }
+  100% { width: 2px; height: 2px; margin: -1px 0 0 -1px; opacity: 0 }
+}
+
+@-webkit-keyframes spin
+{
+  0% { -webkit-transform: rotate(0deg) }
+  100% { -webkit-transform: rotate(360deg) }
+}
