@@ -20,6 +20,7 @@ svg{
 img.svg{
 	width: 15px;
 	height: 15px;
+	
 }
 .arlo_tm_wrapper_all,
 .arlo_tm_section,
@@ -48,7 +49,7 @@ opacity: 60%;
 	color:white;
 	color: white;
 
-font-size: 50px;
+font-size: 27px;
 
 font-weight: bold;
 
@@ -122,6 +123,8 @@ font-family: Helvetica;
 	        transition: all .3s ease;
 	
 }
+
+
 .arlo_tm_leftpart_wrap.hide{left: -300px;}
 .arlo_tm_leftpart_wrap.opened{left: -300px;}
 .arlo_tm_leftpart_wrap .logo_wrap{
@@ -477,7 +480,7 @@ margin-left: -513px;
 	font-size: 40px;
 }
 .fd p{
-	font-size: 17px;
+	font-size: 13px;
 
 font-weight: bold;
 
@@ -498,7 +501,7 @@ margin-left: 20px;
 	clear: both;
 	float: left;
 	text-align: left;
-	padding-bottom: 50px;
+	padding-bottom: 35px;
 	position: relative;
 	
 	-webkit-box-sizing: border-box; 
@@ -510,12 +513,12 @@ margin-left: 20px;
 	position: absolute;
 	content: "";
 	width: 6px;
-	height: 72px;
+	height: 54px;
 	background-color: #E3872D;
 	top: 2px;
 }
 .arlo_tm_title_holder h3{
-	font-size: 50px;
+	font-size: 33px;
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: -.5px;
@@ -524,7 +527,7 @@ margin-left: 20px;
 /*	font-style: italic;*/
 }
 .arlo_tm_title_holder span{
-	font-size: 16px;
+	font-size: 14px;
 	font-family: "Montserrat";
 	padding-left: 25px;
 }
@@ -651,15 +654,15 @@ margin-left: 20px;
 	margin: 0px 0px 30px 0px;
 	float: left;
 	width: 50%;
-	padding-left: 30px;
+	padding-left: 25px;
 	
 	-webkit-box-sizing: border-box; 
 	   -moz-box-sizing: border-box; 
 			box-sizing: border-box;
 }
 .arlo_tm_services_wrap .list_wrap ul li .inner{
-	width: 100%;
-	height: auto;
+	width: 153px;
+	height: 200px;
 	clear: both;
 	float: left;
 	    border-radius: 30px;
@@ -681,11 +684,11 @@ margin-left: 20px;
 .arlo_tm_services_wrap .list_wrap ul li .inner:hover{top: -5px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon{margin-bottom: 21px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon .svg{
-	width: 150px;
-height: 150px;
+	width: 110px;
+height: 110px;
 color: #E3872D;
 border-radius: 100px;
-margin-left: 77px;
+margin-left: 22px;
 align-items: center;
 }
 .arlo_tm_services_wrap .list_wrap ul li .title_service{margin-bottom: 17px;}
@@ -696,11 +699,12 @@ align-items: center;
     color: #000000;
 	line-height: 1;
 	text-align: center;
+	margin:7px;
 }
 .text1{
 	font-family: "Open Sans";
-font-size: 14px;
-line-height: 1.8;
+font-size: 11px;
+line-height: 0.8;
 letter-spacing: 0.5px;
 word-wrap: break-word;
 font-weight: 400;
@@ -743,12 +747,12 @@ text-decoration: none;
 			box-sizing: border-box; 
 }
 .arlo_tm_counter_list li .inner{
-	width: 150%;
+	width: 145%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
-	padding: 90px 0px 93px 108px;
+    padding: 39px 10px 31px 42px;
 	
 	-webkit-box-sizing: border-box; 
 	   -moz-box-sizing: border-box; 
@@ -770,13 +774,13 @@ text-decoration: none;
 	margin-bottom: 10px;
 }
 .arlo_tm_counter_list li h3 > span{
-	font-size: 30px;
+	font-size: 13px;
 	font-weight: 700;
 }
 .arlo_tm_counter_list li .inner > span{
 	color:#666;
 	font-family: "Open Sans";
-	font-size: 14px;
+	font-size: 11px;
 	display: block;
 	font-weight: 600;
 }
@@ -917,7 +921,7 @@ text-decoration: none;
 }
 .arlo_tm_universal_box_wrap .content{
 	width: 100%;
-	height: auto;
+	height: 445px;
 	clear: both;
 	float: left;
 	position: relative;
@@ -940,6 +944,7 @@ text-decoration: none;
 	height: auto;
 	clear: both;
 	float: left;
+	margin-top: -42px;
 	background-color: #fff;
 	
 	-webkit-box-sizing: border-box; 
@@ -947,9 +952,9 @@ text-decoration: none;
 			box-sizing: border-box; 
 }
 .arlo_tm_contact_wrap_all .leftbox{
-	width: 40%;
+	width: 111%;
 	height: auto;
-	float: left;
+
 	padding-right: 40px;
 	
 	-webkit-box-sizing: border-box; 
@@ -1014,11 +1019,11 @@ text-decoration: none;
 }
 .arlo_tm_contact_wrap .main_input_wrap,
 .arlo_tm_contact_wrap .main_input_wrap .wrap{
-	width: 100%;
+	width: 121%;
 	height: auto;
 	clear: both;
-	float: left;
-	
+	margin-left: -60px;
+float: left;	
 	-webkit-box-sizing: border-box; 
 	   -moz-box-sizing: border-box; 
 			box-sizing: border-box; 
@@ -1060,6 +1065,7 @@ text-decoration: none;
     display: inline-block;
     position: relative;
     overflow: hidden;
+    margin-left: -63px;
 }
 .arlo_tm_contact_wrap .arlo_tm_button a:before{
 	position: absolute;
@@ -1122,7 +1128,7 @@ text-decoration: none;
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_portfolio_single_wrap .title_holder h3{
-	font-size: 50px;
+	font-size: 34px;
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: -.5px;
